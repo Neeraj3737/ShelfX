@@ -26,12 +26,12 @@ const Navbar = ({ hideAuthButtons }) => {
             >
               <Link to="/Login">Login</Link>
             </button>
-            <button
+            {/* <button
               type="button"
               className="text-[#222831] font-medium rounded-lg text-sm px-4 py-2 text-center bg-[#FFD369] hover:bg-[#FFD369] focus:bg-[#ecc363]"
             >
               <Link to="/Register">Sign Up</Link>
-            </button>
+            </button> */}
           </div>
         )}
         <button
